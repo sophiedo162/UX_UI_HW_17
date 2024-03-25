@@ -1,0 +1,248 @@
+body{
+    width:1400px;
+}
+#header {
+    height: 350px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+}
+.top {
+    display: flex;
+}
+.logo {
+    padding: 20px;
+    padding-left: 120px;
+}
+.pageTitle {
+    color: #01386A;
+    font-family: "Bitter";
+    padding: 40px;
+    padding-left: 10px;
+}
+.pageTitle h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.pageTitle h3{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: -30px;
+}
+.nav {
+    padding-left: 45px;
+    font-family: "Sen";
+}
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #633301;
+}
+.nav a img {
+    padding: 3px;
+}
+.button1 {
+    border-radius: 30px;
+    background-color: #8E5315;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Sen";
+    font-size: 22px;
+    font-weight: 500;
+}
+.heroImage {
+    height: 300px;
+    background-image: url("happy-kids-stroking-cute-dog\ 1.png");
+    color: white;
+    font-family: "sen";
+    font-size: 35px;
+    font-weight: 800;
+    position: relative;
+}
+.heroImage img {
+    position:absolute;
+}
+.heroImage h2 {
+    padding-left: 30px;
+    padding-top: 160px;
+    position: relative;
+}
+.title h3 {
+    font-size: 35px;
+    color:#01386A;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.content {
+    display: flex;
+}
+
+.content .left {
+   /* padding top wont change */
+    width: 60%;
+    padding-left: 250px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color:#01386A;
+}
+
+span {
+    color: rgb(202, 12, 12)
+}
+input[type=text] {
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+input::placeholder{
+    padding-left: 5px;
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+}
+.content h5 {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+label {
+    font-size: 18px;
+}
+select {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color:#284c6d;    
+}
+ul {
+    list-style-type: none;
+    font-family: "Sen";
+}
+.calender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #135997;
+    background-color: white;
+}
+.months {
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+.months li {
+    padding: 20px;
+    margin:1px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.weekdays {
+    margin-top: -45px;
+    display: flex;
+    font-size: 15px;
+    padding: 15px;
+}
+.weekdays li {
+    padding: 5px;
+}
+.days {
+    padding: 10px;
+    margin-top:-25px;
+}
+.days li {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.days li .active {
+    background-color: #01386A;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.time {
+    width: 80%;
+    padding: 0;
+}
+.time li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.time li .active {
+    background-color: #01386A;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.button2 {
+    border-radius: 30px;
+    background-color: #2881D2;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-family: "Sen";
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.right {
+    padding: 70px;
+    padding-left: 100px;
+    /* items wont center  */
+}
+.right img {
+    padding-bottom: 100px;
+}
+.footer {
+    background-image: url('background-image.png');
+    background-repeat: no-repeat;
+    /* background iamge not all the way down  */
+}
+.footer .top {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.top .left {
+    padding-left: 80px;
+    height: 250px;
+    font-family: "Open Sans";
+    color:#135997;
+}
+.top .left img {
+    padding-right: 10px;
+}
+.top .left p {
+    margin: 5px;
+}
+.top .mid p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    background: linear-gradient(to right, #8E5315, #64A3DD, #94763a, #62acec);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.top .mid {
+    padding-left: 80px;
+    height: 250px;
+}
+.top .right {
+    padding-top: 0;
+    height: 300px;
+}
+.footer .bottom {
+    color:#8E5315;
+    padding: 20px;
+    padding-left: 50px;
+}
