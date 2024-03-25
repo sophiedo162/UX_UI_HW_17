@@ -5,6 +5,7 @@ body{
     height: 350px;
     background-image: url("background.png");
     background-repeat: no-repeat;
+    margin-bottom: -45px;
 }
 .top {
     display: flex;
@@ -29,7 +30,7 @@ body{
     margin-top: -30px;
 }
 .nav {
-    padding-left: 45px;
+    padding-left: 100px;
     font-family: "Sen";
 }
 .nav a {
