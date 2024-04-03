@@ -4,7 +4,7 @@ body{
 .footerMobile {
     display: none;
 }
-#header {
+header {
     height: 350px;
     background-image: url("background.png");
     background-repeat: no-repeat;
@@ -213,18 +213,19 @@ ul {
 .right img {
     padding-bottom: 100px;
 }
-.footer {
+footer {
     background-image: url('background-image.png');
     background-repeat: no-repeat;
 }
-.footer .top {
+footer .top {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
-    padding: 20px 0;
+    padding: 20px;
 }
 .top .left {
-    padding-left: 0px;
+    padding-right: 10px;
     font-family: "Open Sans";
     color:#135997;
 }
@@ -241,17 +242,24 @@ ul {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.top .mid {
-    padding-left: 80px;
-}
 .top .right {
-    padding: 0 50px;
+    padding: 0 10px;
 }
-.footer .bottom {
+footer .bottom {
     color:#8E5315;
     padding: 5px;
     padding-left: 50px;
 }
+
+
+@media all and (max-width: 1260px) {
+    footer .left {
+        background-color: #62acec;
+    }
+
+}
+
+
 @media all and (max-width: 600px) {
     body {
         min-width: 550px;
@@ -283,7 +291,7 @@ ul {
     .nav {
         display: none;
     }
-    #header {
+    header {
         display: flex;
         height: 180px;
         background-size: cover ;
@@ -298,7 +306,7 @@ ul {
     .content .left {
         padding-left: 80px;
     }
-    .footer {
+    footer {
         display: none;
     }
     .footerMobile {
