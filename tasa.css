@@ -10,6 +10,7 @@ header {
     background-repeat: no-repeat;
     margin-bottom: -45px;
 }
+
 .iconMobile {
     margin-top: 90px;
     padding: 20px;
@@ -18,20 +19,24 @@ header {
 
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .logo {
     padding: 20px;
-    padding-left: 120px;
+    padding-right: 0;
+    padding-left: 80px;
+}
+.logo img {
+    width: 220px;
 }
 .pageTitle {
     color: #01386A;
     font-family: "Bitter";
-    padding: 40px;
-    padding-left: 10px;
+    padding-left: 25px;
+    padding-top: 40px;
 }
 .pageTitle h1 {
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 500;
 }
 .pageTitle h3{
@@ -58,10 +63,10 @@ header {
     background-color: #8E5315;
     border: none;
     color: white;
-    width: 150px;
+    width: 130px;
     height: 40px;
     font-family: "Sen";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 .heroImage {
