@@ -152,6 +152,7 @@ ul {
     font-family: "Sen";
 }
 .calender {
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -342,7 +343,7 @@ footer .bottom {
     }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 761px) {
     .right img {
         display: none;
     }
