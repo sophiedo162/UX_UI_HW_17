@@ -174,20 +174,21 @@ ul {
     margin-top: -45px;
     display: flex;
     font-size: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 .weekdays li {
-    padding: 5px;
+    padding: 3px;
 }
 .days {
     padding: 10px;
+    padding-left: 20px;
     margin-top:-25px;
 }
 .days li {
     display: inline-block;
     width: 10%;
     text-align: center;
-    margin: 2px 3px 10px 2px;
+    margin: 2px 3px 8px 2px;
 }
 .days li .active {
     background-color: #01386A;
