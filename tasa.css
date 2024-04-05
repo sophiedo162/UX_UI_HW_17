@@ -106,16 +106,14 @@ header {
 }
 .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .content .left {
-    width: 50%;
     font-family: "Open Sans";
     font-size: 20px;
     color:#01386A;
     padding-left: 100px;
-    padding-right: 50px;
 }
 
 span {
@@ -152,7 +150,7 @@ ul {
     font-family: "Sen";
 }
 .calender {
-    min-width: 320px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,9 +185,9 @@ ul {
 }
 .days li {
     display: inline-block;
-    width: 15%;
+    width: 10%;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 2px 3px 10px 2px;
 }
 .days li .active {
     background-color: #01386A;
@@ -226,12 +224,13 @@ ul {
     margin-top: 30px;
     margin-bottom: 80px;
 }
-.content {
-    width: 100%;
+.content .right {
+    width: 40%;
 }
+
 .content .right img {
     padding-bottom: 100px;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 footer {
